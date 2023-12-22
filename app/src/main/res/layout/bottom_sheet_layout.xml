@@ -1,0 +1,28 @@
+<!-- bottom_sheet_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corners"
+    >
+
+    <!-- Header or title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Close button -->
+
+    <!-- Content -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the bottom sheet content."
+        android:textSize="16sp" />
+
+</LinearLayout>

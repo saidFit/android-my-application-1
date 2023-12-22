@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_on</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+</resources>
